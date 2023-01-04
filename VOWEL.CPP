@@ -1,0 +1,28 @@
+//program to check whether the entered character is vowel or not
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+    char ch;
+    clrscr();
+    cout<<"\n\tenter any character\t";
+    cin>>ch;
+    switch(ch)
+    {
+      case 'a':
+      case 'A':
+      case 'e':
+      case 'E':
+      case 'i':
+      case 'I':
+      case 'o':
+      case 'O':
+      case 'u':
+      case 'U':cout<<"\n\tENTERED CHARACTER IS VOWEL";
+	       break;
+      default:cout<<"\nENTERED CHARACTER IS NOT VOWEL";
+	      break;
+      }
+      getch();
+}
+

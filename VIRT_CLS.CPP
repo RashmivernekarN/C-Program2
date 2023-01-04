@@ -1,0 +1,76 @@
+//program to illustrate virtual base class
+
+#include<iostream.h>
+#include<conio.h>
+class bc1
+{
+   protected:int i;
+   public:void get_i();
+	  void put_i();
+};
+class dc1:virtual public bc1
+{
+    protected:int j;
+    public:void get_j();
+	   void put_j();
+};
+class dc2:virtual public bc1
+{
+    protected:int k;
+    public:void get_k();
+	   void put_k();
+};
+class dc3:public dc1,public dc2
+{
+   int sum;
+   public:void print_sum();
+};
+void bc1::get_i()
+{
+   cout<<"\n\tenter value for i";
+   cin>>i;
+}
+void bc1::put_i()
+{
+   cout<<"\n\tvalue of i"<<i;
+}
+void dc1::get_j()
+{
+   cout<<"\n\tenter value for j";
+   cin>>j;
+}
+void dc1::put_j()
+{
+   cout<<"\n\tvalue of j"<<j;
+}
+void dc2::get_k()
+{
+   cout<<"\n\tenter value for k";
+   cin>>k;
+}
+void dc2::put_k()
+{
+   cout<<"\n\t value of k"<<k;
+}
+void dc3::print_sum()
+{
+   sum=i+j+k;
+   put_i();
+   put_j();
+   put_k();
+   cout<<"\n\tsum="<<sum;
+ }
+void main()
+{
+   dc3 d3;
+   clrscr();
+   d3.get_i();
+   d3.get_j();
+   d3.get_k();
+   d3.print_sum();
+   getch();
+}
+
+
+
+
