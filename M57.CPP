@@ -1,0 +1,21 @@
+//program to read a string and find the length of  a string
+#include <iostream.h>
+#include<stdio.h>
+#include <conio.h>
+void main()
+{
+  int i,len=0;
+  char str[20];
+  clrscr();
+  cout<<"\n Enter any string";
+  gets(str);
+  for(i=0;str[i]!='\0';i++)
+  {
+  len++;
+  }
+  cout<<"\n Entered string is "<<str;
+  cout<<"\n Length of a given string is "<<len;
+  getch();
+}
+
+
