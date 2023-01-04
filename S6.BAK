@@ -1,0 +1,15 @@
+  /*Program to perform basic arithmetic operations*/
+  #include<stdio.h>
+  #include<conio.h>
+  void main()
+    {
+       float a,b;
+       clrscr();
+       printf("\n Enter any two numbers");
+       scanf("%f%f",&a,&b);
+       printf("\n sum of two numbers=%0.2f",(a+b));
+       printf("\n substraction of two numbers=%f",(a-b));
+       printf("\n Product of two numbers=%f",(a*b));
+       printf("\n Division of two numbers=%f",(a/b));
+       getch();
+    }

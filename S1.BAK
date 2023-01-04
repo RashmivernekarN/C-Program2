@@ -1,0 +1,17 @@
+  /*prg to find sum and avg of 3 nums*/
+  #include<stdio.h>
+  #include<conio.h>
+  int main()
+    {
+      float a,b,c,sum,avg;
+      clrscr();
+      printf("\n Enter three nums");
+      scanf("%f%f%f",&a,&b,&c);
+      sum=a+b+c;
+      avg=sum/3;
+      printf("\n sum=%f \t avg=%f",sum,avg);
+      getch();
+    }
+
+
+

@@ -1,0 +1,47 @@
+//single inheritance
+#include<iostream.h>
+#include<conio.h>
+
+class box
+{
+
+    public: int l,b;
+	    void getdata()
+	   {
+	       cout<<"\n\tenter values for length and breadth";
+	       cin>>l>>b;
+	    }
+	    void display()
+	    {
+		cout<<"\n\tlength="<<l<<"\n\tbreadth="<<b;
+	     }
+};
+class rect_box:public box
+{
+   int h;
+   public:void read()
+	   {
+	       getdata();
+	       cout<<"\n\tenter height";
+	       cin>>h;
+	    }
+	    int volume()
+	    {
+	       return(l*b*h);
+	    }
+	    void print()
+	    {
+	       display();
+	       cout<<"\n\theight="<<h;
+	       cout<<"\n\tvolume="<<volume();
+	     }
+
+};
+void main()
+{
+    rect_box r;
+    clrscr();
+    r.read();
+    r.print();
+    getch();
+}

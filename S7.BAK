@@ -1,0 +1,31 @@
+ /*prg to read N elements and search key and find  whether
+  the search key is prsent in an array or not*/
+  #include<stdio.h>
+  #include<conio.h>
+  void main()
+    {
+      int a[5],i,n,f=0,key;
+      clrscr();
+      printf("\n enter the size of an array");
+      scanf("%d",&n);
+      printf(" Enter %d element",n);
+      for(i=0;i<n;i++)
+	{
+	  scanf("%d",&a[i]);
+	}
+      printf("\n enter the key");
+      scanf("%d",&key);
+      for(i=0;i<n;i++)
+	{
+	  if(a[i]==key)
+	    {
+	     f=1;
+	     break;
+	    }
+	}
+	if(f>0)
+	    printf("\n key is found at location %d",i+1);
+	else
+	   printf("\n key not foun");
+      getch();
+}
