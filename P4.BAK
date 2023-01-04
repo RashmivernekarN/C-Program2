@@ -1,0 +1,15 @@
+//Program to find the sum of six numbers with arrays and pointers.
+#include <stdio.h>
+int main()
+{
+  int i,a[5],sum=0;
+  clrscr();
+  printf("Enter 6 numbers:\n");
+  for(i=0;i<5;++i)
+  {
+      scanf("%d",(a+i)); // (a+i) is equivalent to &a[i]
+      sum += *(a+i); // *(a+i) is equivalent to a[i]
+  }
+  printf("Sum=%d",sum);
+  getch();
+}

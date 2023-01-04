@@ -1,0 +1,14 @@
+//program to find area and circumferenceof circle
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   float r,area,cir;
+   clrscr();
+   r=4.6;
+   area=3.142*r*r;
+   cir=2*3.142*r;
+   printf("\n\tr=%f\n\tarea of circle=%f\n\tcircumference=%f",r,area,cir);
+   getch();
+}

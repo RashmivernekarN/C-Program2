@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+   int i,n;
+   clrscr();
+   i=51;
+   n=100;
+   cout<<"\n\todd numbers from 50 to 100"<<endl;
+   while(i<=n)
+   {
+      cout<<"\t"<<i;
+      i+=2;
+    }
+    getch();
+}

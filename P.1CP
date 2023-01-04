@@ -1,0 +1,10 @@
+#include<iostream.h>
+#includk<conio.h>
+{
+int i=1;
+do{
+cout<<i<<"\n";
+i++;
+} while(i<=10);
+getch();
+}
