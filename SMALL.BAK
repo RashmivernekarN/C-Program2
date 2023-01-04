@@ -1,0 +1,23 @@
+//smallest of 4 numbers
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+   int a,b,c,d;
+   clrscr();
+   cout<<"\n\tenter any 4 integers";
+   cin>>a>>b>>c>>d;
+   if(a<b&&a<c&&a<d)
+       cout<<"\n\t"<<a<<"is small";
+   else if(b<a&&b<c&&b<d)
+	     cout<<"\n\t"<<b<<" is small";
+   else if(c<a&&c<b&&c<d)
+	       cout<<"\n\t"<<c<<" is small";
+   else if(d<a&&d<b&&d<c)
+	     cout<<"\n\t"<<d<<" is small";
+   else
+       cout<<"not possible to say which is small";
+   getch();
+}

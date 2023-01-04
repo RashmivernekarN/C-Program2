@@ -1,0 +1,17 @@
+//program to illustrate size of operator
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+    int a;
+    float b;
+    char c;
+    clrscr();
+    cout<<"\n\tsize of int"<<sizeof(a);
+    cout<<"\n\tsize of float"<<sizeof(b);
+    cout<<"\n\tsize of char"<<sizeof(c);
+    cout<<"\n\tsize of double"<<sizeof(double);
+    getch();
+}

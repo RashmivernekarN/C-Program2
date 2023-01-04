@@ -1,0 +1,20 @@
+#include<iostream.h>
+#include<conio.h>
+
+void smallest(int ,int );
+int a,b,s;
+
+void main()
+{
+   clrscr();
+   cout<<"\n\tenter 2 integers";
+   cin>>a>>b;
+   smallest(a,b);
+   getch();
+}
+
+void smallest(int p,int q)
+{
+   s=p<q?p:q;
+   cout<<"SMALLEST NUM IS"<<s;
+}
