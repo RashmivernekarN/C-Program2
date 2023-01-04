@@ -1,0 +1,17 @@
+//cpp program to find sum of two numbers
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+   int a,b,sum;
+   clrscr();
+   cout<<"\n\tenter value for a and b";
+   cin>>a>>b;
+   sum=a+b;
+   cout<<"\n\ta="<<a<<"\n\tb="<<b<<"\n\tsum="<<sum;
+   getch();
+}
+
+

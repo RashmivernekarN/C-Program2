@@ -1,0 +1,20 @@
+//program to find area and circumferense of the circle
+
+#include<iostream.h>
+#include<conio.h>
+#define pi 3.142
+
+void main()
+{
+   float r,area,cir;
+   clrscr();
+   cout<<endl<<"\tenter radious of the circle";
+   cin>>r;
+   area=pi*r*r;
+   cir=2*pi*r;
+   cout<<endl<<"\tradious="<<r<<endl<<"\tarea of circle"<<area;
+   cout<<"\n\tcircumferense="<<cir;
+   getch();
+}
+
+

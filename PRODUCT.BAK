@@ -1,0 +1,16 @@
+//product of 3 numbers
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   int a,b,c,p;
+   clrscr();
+   a=10;
+   b=20;
+   c=2;
+   p=a*b*c;
+   printf("\na=%d\nb=%d\nc=%d\nproduct=%d",a,b,c,p);
+   getch();
+}

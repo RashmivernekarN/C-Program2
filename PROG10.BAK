@@ -1,0 +1,16 @@
+//PROGRAM TO FIND SUM AND AVERAGE OF 3 NUMBERS
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   float a,b,c,sum,avg;
+   clrscr();
+   a=2.5;
+   b=1.2;
+   c=6.8;
+   sum=a+b+c;
+   avg=sum/3;
+   printf("\n\ta=%f\n\tb=%f\n\tc=%f\n\tsum=%f\n\tavg=%f",a,b,c,sum,avg);
+   getch();
+}

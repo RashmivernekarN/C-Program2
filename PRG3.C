@@ -1,0 +1,13 @@
+//program to find area of circle
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   float r,area;
+   clrscr();
+   r=4.6;
+   area=3.142*r*r;
+   printf("\n\tr=%f\n\tarea of circle=%f",r,area);
+   getch();
+}

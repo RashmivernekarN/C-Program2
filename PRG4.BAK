@@ -1,0 +1,18 @@
+//program to find sum of 2 numbers
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+    int a,b,sum;
+    clrscr();
+    a=100;
+    b=200;
+    sum=a+b;
+    cout<<"\n\ta="<<a<<"\n\tb="<<b<<"\n\tsum="<<sum<<endl;
+    cout<<"\ta="<<a<<endl;
+    cout<<"\tb="<<b<<endl;
+    cout<<"\tsum="<<sum<<endl;
+    getch();
+}
