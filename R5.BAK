@@ -1,0 +1,14 @@
+  /*Program to demonstrate decrement operator*/
+  #include<stdio.h>
+  #include<conio.h>
+  void main()
+    {
+      int i=10,j=20;
+      clrscr();
+      //prefix decrement
+      printf("\n After decrementing i=%d",(--i));
+      //postfix decrement
+      printf("\n After increment j=%d",(j--));
+      printf("\n j=%d",j);
+      getch();
+    }

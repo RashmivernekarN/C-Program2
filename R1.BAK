@@ -1,0 +1,25 @@
+/*//program to print simple message.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("\n\n   welcome to c program");
+getch();
+} */
+
+
+//program to print simple message.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("\n\n   *******************RESUME*****************\n");
+printf("\n                 Name     :     ABC");
+printf("\n                 Address  :     program");
+printf("\n                 Dob      :     1-1-1111");
+printf("\n                 City     :     Hubli");
+printf("\n\n   **********************END*******************");
+getch();
+}

@@ -1,0 +1,46 @@
+//program to illustrate PURE virtual functions
+#include<iostream.h>
+#include<conio.h>
+class student
+{
+
+   public:virtual void getdata()
+	  {
+
+	   }
+	   virtual void putdata()
+	   {
+
+	   }
+};
+class jr_student:public student
+{
+    private:int age;
+	    char hobby[20];
+     public:void getdata();
+	     void putdata();
+ };
+     void jr_student::getdata()
+     {
+	cout<<"\n enter age and hobby";
+	cin>>age>>hobby;
+     }
+    void jr_student::putdata()
+      {
+	  cout<<"\nage="<<age<<"\nhobby="<<hobby;
+      }
+  void main()
+  {
+
+      student *sptr;
+      jr_student js;
+      clrscr();
+      sptr=&js;
+      sptr->getdata();
+      sptr->putdata();
+      getch();
+  }
+
+
+
+

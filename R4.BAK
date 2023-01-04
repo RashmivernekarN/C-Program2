@@ -1,0 +1,15 @@
+  /*Program to demonstrate increment operator*/
+  #include<stdio.h>
+  #include<conio.h>
+  void main()
+    {
+      int i=10,j=20;
+      clrscr();
+      //prefix increment
+      printf("\n After incrementing i=%d",(++i));
+      //postfix increment
+      printf("\n After increment j=%d",(j++));
+      printf("\n j=%d",j);
+
+      getch();
+    }

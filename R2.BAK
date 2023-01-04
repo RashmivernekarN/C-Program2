@@ -1,0 +1,43 @@
+/*// program to find sum and avg of two no's.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a=2,b=2,sum=0;
+sum=a+b;
+printf("\n\n sum=%d",sum);
+getch();
+} */
+
+
+/*// program to find sum and avg of two no's.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,b,sum;
+printf("\n\nEnter the value of a and b:");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("\n\n sum=%d",sum);
+getch();
+}*/
+
+// program to find sum and avg of two no's.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,b,sum;
+float avg;
+printf("\n\nEnter the value of a and b:");
+scanf("%d%d",&a,&b);
+sum=a+b;
+avg=sum/2;
+printf("\n\n sum=%d",sum);
+printf("\n\n avg=%6.2f",avg);
+getch();
+}
