@@ -1,0 +1,9 @@
+  /*prg to print below message*/
+  #include<stdio.h>
+  #include<conio.h>
+  void main()
+    {
+      clrscr();
+      printf("\n ktc\\hbl\\101 ");
+      getch();
+    }

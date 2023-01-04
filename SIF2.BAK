@@ -1,0 +1,15 @@
+//illustrate simple if
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int marks;
+  clrscr();
+  printf("\n\tenter marks of the student");
+  scanf("%d",&marks);
+  if(marks>=35)
+  {
+     printf("\n\tPASS");
+  }
+  getch();
+}

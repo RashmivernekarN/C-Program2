@@ -1,0 +1,20 @@
+/*program to ilustrate simple if(find area if circle only if radious is less
+  than 5) */
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+    float r,area;
+    clrscr();
+    cout<<"\n\tenter r value";
+    cin>>r;
+    if(r<5)
+    {
+       area=3.142*r*r;
+	cout<<"\n\tarea of circle="<<area;
+    }
+
+      getch();
+}

@@ -1,0 +1,19 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+
+
+void main()
+{
+   int a,b,c,x,y;
+   clrscr();
+   printf("\n\tenter values for a,b,c,x");
+   scanf("%d%d%d%d",&a,&b,&c,&x);
+   if(x<5)
+      {
+	 y=a*x*x+b*x+c;
+	 printf("\n\tresult of expression=%d",y);
+       }
+  getch();
+}

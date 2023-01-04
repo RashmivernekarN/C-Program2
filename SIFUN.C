@@ -1,0 +1,22 @@
+//program to find simple interest using function
+
+#include<stdio.h>
+#include<conio.h>
+
+void simple();
+
+void main()
+{
+  clrscr();
+  simple();
+  getch();
+}
+void simple()
+{
+  float p,t,r,si;
+  printf("\nenter values for p t r");
+  scanf("%f%f%f",&p,&t,&r);
+  si=(p*t*r)/100;
+  printf("\n\tp=%f\n\tt=%f\n\tr=%f\n\tsimple interest=%f",p,t,r,si);
+
+}

@@ -1,0 +1,17 @@
+/* Program to calculate area of circle only if radious is less than 5*/
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   float r,area;
+   clrscr();
+   printf("\n\tenter value for r");
+   scanf("%f",&r);
+   if(r<5)
+   {
+      area=3.142*r*r;
+      printf("\n\tr=%f\n\tarea=%f",r,area);
+   }
+   getch();
+}
