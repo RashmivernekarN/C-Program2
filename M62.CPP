@@ -1,0 +1,22 @@
+/*program to read a string and copy it into another string*/
+#include <iostream.h>
+#include<stdio.h>
+#include <conio.h>
+#include<string.h>
+void main()
+{
+  char str1[20],str2[20];
+  clrscr();
+  cout<<"\n Enter any string";
+  gets(str1);
+  strcpy(str2,str1);
+  cout<<"\n First string is "<<str1;
+  cout<<"\n Copied string is "<<str2;
+  getch();
+}
+
+
+
+
+
+

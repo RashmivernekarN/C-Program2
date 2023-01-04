@@ -1,0 +1,35 @@
+/*program to read a string and convert upper case to  lowercase and
+vice versa*/
+#include <iostream.h>
+#include<stdio.h>
+#include <conio.h>
+#include<string.h>
+#include<ctype.h>
+void main()
+{
+  int i;
+  char str1[20],str2[20];
+  clrscr();
+  cout<<"\n Enter any string";
+  gets(str1);
+  for(i=0;str1[i]!='\0';i++)
+    {
+      if(str1[i]>=65 && str1[i]<=90)
+	{
+	   str2[i]=tolower(str1[i]);
+	}
+      else if(str1[i]>=97 && str1[i]<=122)
+	{
+	   str2[i]=toupper(str1[i]);
+	}
+      else
+
+	{
+	   str2[i]=str1[i];
+	}
+    }
+    str2[i]='\0';
+  cout<<"\n Given string is "<<str1;
+  cout<<"\n Converted string is "<<str2;
+  getch();
+}
