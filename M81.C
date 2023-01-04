@@ -1,0 +1,32 @@
+/*prg to read a string and count how many vowels are there in a
+ string  using built in function*/
+  #include<stdio.h>
+  #include<conio.h>
+  void main()
+    {
+      int i,len=0;
+      char str1[20];
+      clrscr();
+      printf("\n Enter any string");
+      gets(str1);
+      for(i=0;str1[i]!='\0';i++)
+	{
+	  switch(str1[i])
+	    {
+	      case 'A':
+	      case 'E':
+	      case 'I':
+	      case 'O':
+	      case 'U':
+	      case 'a':
+	      case 'e':
+	      case 'i':
+	      case 'o':
+	      case 'u':
+
+			len++;
+	    }
+	}
+      printf("\n Total number of vowels= %d",len);
+      getch();
+    }

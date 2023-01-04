@@ -1,0 +1,26 @@
+  /*prg to read a num and print its equivalent month no
+  using ladder if statement*/
+  #include<stdio.h>
+  #include<conio.h>
+  void main()
+    {
+      int n;
+      clrscr();
+      printf("\n Enter any num");
+      scanf("%d",&n);
+      if(n==1)
+	{
+	printf("\n Jan");
+	}
+      else if(n==2)
+	{
+	printf("\n Feb");
+	}
+      else if(n==3)
+	printf("\n March");
+      else if(n==12)
+	printf("\n Dec");
+      else
+	printf("\n Invalid month num");
+      getch();
+    }
