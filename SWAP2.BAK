@@ -1,0 +1,26 @@
+//swapp two numbers
+
+#include<iostream.h>
+#include<conio.h>
+
+void swap(int   ,int  );
+void main()
+{
+   int a, b;
+   clrscr();
+   cout<<"\nenter values for a and b";
+   cin>>a>>b;
+     cout<<"\nbefore swapping the values are";
+   cout<<"\n\ta="<<a<<"\tb="<<b;
+   swap(a,b);
+   getch();
+}
+void swap(int p,int q)
+{
+   int t;
+   t=p;
+   p=q;
+   q=t;
+   cout<<"\nafter swapping the values are";
+   cout<<"\n\ta="<<p<<"\tb="<<q;
+}
