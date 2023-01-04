@@ -1,0 +1,20 @@
+/*prg to find sum of 2 number using sub prg*/
+ #include <stdio.h>
+ #include <conio.h>
+ int sum(int,int);//prototype declaration
+ void main()
+ {
+  int a,b,s;
+  clrscr();
+  printf ("\n enter any 2 number");
+  scanf ("%d%d",&a,&b);
+  s=sum(a,b);
+  printf ("\n sum=%d",s);
+  getch();
+ }
+  int sum(int x,int y)
+  {
+    int z;
+    z=x+y;
+    return(z);
+  }

@@ -1,0 +1,24 @@
+/*prg to check whether given string is palindrome or
+ not using built in function*/
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+void main()
+{
+char str1[20],str2[20];
+clrscr();
+printf ("\n enter 1st string");
+scanf ("%s",str1);
+printf ("\n given string is %s",str1);
+strcpy(str2,str1);
+strrev(str2);
+if (strcmp(str1,str2)==0)
+{
+printf ("\n it is a palindrome");
+}
+else
+{
+printf ("\n it is not a palindrome");
+}
+getch();
+}

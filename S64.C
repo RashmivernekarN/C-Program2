@@ -1,0 +1,21 @@
+  /*prg to find diggest of 2 number using sub prg*/
+  #include <stdio.h>
+  #include <conio.h>
+  int big (int,int);//prototype declaration
+  void main()
+  {
+	int a,b,lar;
+	clrscr();
+	printf ("\n enter any 2 number");
+	scanf ("%d%d",&a,&b);
+	lar=big(a,b);
+	printf ("\n biggest number=%d",lar);
+	getch();
+	}
+	int big(int x,int y)
+	{
+	if (x>y)
+	   return (x);
+	else
+	   return (y);
+	}
