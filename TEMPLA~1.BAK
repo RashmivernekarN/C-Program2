@@ -1,0 +1,20 @@
+#include <iostream.h>
+#include<conio.h>  
+template<class T> 
+T add(T &a,T &b)  
+{  
+T result = a+b;  
+return result;      
+}  
+void  main()  
+{  
+int i =2;  
+int j =3;  
+float m = 2.3;  
+float n = 1.2;  
+clrscr();
+cout<<"\n\tAddition of i and j is :"<<add(i,j);
+cout<<'\n';
+cout<<"\n\tAddition of m and n is :"<<add(m,n);
+getch();  
+}  
