@@ -1,0 +1,15 @@
+//illustrate getchar and putchar functions
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+void main()
+{
+   char x;
+   clrscr();
+   printf("\nenter any character");
+   x=getchar();
+   printf("\n\tentered character is=");
+   putchar(x);
+   getch();
+}

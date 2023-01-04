@@ -1,0 +1,26 @@
+//program to illustrate structure
+#include<stdio.h>
+#include<conio.h>
+
+struct student
+{
+    int roll_no;                        char name[20];
+};
+
+
+void main()
+{
+   struct student s1,s2;
+   clrscr();
+   printf("enter first student information");
+   printf("\n\tenter values for roll number and name");
+   scanf("%d%s",&s1.roll_no,s1.name);
+   printf("enter second student information");
+   printf("\n\tenter values for roll number and name");
+   scanf("%d%s",&s2.roll_no,s2.name);
+   printf("\n\tSTUDENT INFORMATION \n");
+   printf("\n\tROLL NUM:%d \n\tSTUDENT NAME=%s",s1.roll_no,s1.name);
+    printf("\n\tROLL NUM:%d \n\tSTUDENT NAME=%s",s2.roll_no,s2.name);
+   getch();
+}
+
