@@ -1,0 +1,19 @@
+//prg to perform basic arithmetic opreation */
+    #include<stdio.h>
+    #include<conio.h>
+      void main()
+      {
+      int a,b,sum,sub,prod,div;
+      clrscr();
+      printf("\n enter 2 nums ");
+      scanf("%d%d",&a,&b);
+      sum=a+b;
+      sub=a-b;
+      prod=a*b;
+      div=a/b;
+      printf ("\n sum =%d",sum);
+      printf("\n substrction=%d",sub);
+      printf("\n product=%d",prod);
+      printf("\n division=%d",div);
+       getch();
+       }

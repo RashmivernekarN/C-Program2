@@ -1,0 +1,21 @@
+//prg to find the biggest of two numbers using sub program
+#include<stdio.h>
+#include<conio.h>
+int x=5;
+int big(int);
+void main()
+
+  {
+    int a,b,lar;  //local variable
+    clrscr();
+    printf("\n x=%d",x);
+    lar=big(x);
+    printf("\n x=%d",lar);
+    getch();
+
+  }
+  int big (int p)         //formal variables
+    {
+       return(x);
+
+    }

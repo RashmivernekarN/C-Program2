@@ -1,0 +1,26 @@
+//palindrom
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   long int num,rem,temp,rev=0;
+   clrscr();
+   printf("\n\tenter an integer");
+   scanf("%ld",&num);
+   temp=num;
+   while(num>0)
+   {
+      rem=num%10;
+      rev=(rev*10)+rem;
+      num=num/10;
+    }
+    printf("\n\tgiven number=%ld",temp);
+    printf("\n\treverse of the number is=%ld",rev);
+    if(temp==rev)
+	printf("\n\tthe number is palindrom");
+     else
+	printf("\n\tthe number is NOT palindrom");
+	getch();
+}
