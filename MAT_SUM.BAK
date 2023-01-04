@@ -1,0 +1,63 @@
+//program to calculate sum of 2 matr
+
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int m1[10][10],m2[10][10],s[10][10],i,j,r,c;
+    clrscr();
+    printf("\nenter order of the matrix");
+    scanf("%d%d",&r,&c);
+    if(r==c)
+      {
+	 printf("enter elements of first matrix");
+	 for(i=0;i<r;i++)
+	    {
+		for(j=0;j<c;j++)
+		  {
+		     scanf("%d",&m1[i][j]);
+		   }
+	      }
+	  printf("enter elements of second matrix");
+	 for(i=0;i<r;i++)
+	    {
+		for(j=0;j<c;j++)
+		  {
+		     scanf("%d",&m2[i][j]);
+		   }
+	      }
+	  printf(" matrix A\n");
+	 for(i=0;i<r;i++)
+	    {
+		for(j=0;j<c;j++)
+		  {
+		     printf("\t%d",m1[i][j]);
+		   }
+		   printf("\n\n");
+	      }
+	 printf(" matrix B\n");
+	 for(i=0;i<r;i++)
+	    {
+		for(j=0;j<c;j++)
+		  {
+		     printf("\t%d",m2[i][j]);
+		   }
+		   printf("\n\n");
+	      }
+	 printf("SUM  matrix \n");
+	 for(i=0;i<r;i++)
+	    {
+		for(j=0;j<c;j++)
+		  {
+		      s[i][j]=m1[i][j]+m2[i][j];
+		     printf("\t%d",s[i][j]);
+		   }
+		   printf("\n\n");
+	      }
+      } //closing of if statement
+      else
+      printf("not possible to calculate sum");
+    getch();
+    }

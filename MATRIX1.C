@@ -1,0 +1,30 @@
+//accept matrix from user and display same
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   int m[10][10],i,j,r,c;
+   clrscr();
+   printf("\nenter oreder of the matrix");
+   scanf("%d%d",&r,&c);
+   printf("\nenter elements of the matrix");
+   for(i=0;i<r;i++)
+     {
+	for(j=0;j<c;j++)
+	  {
+	     scanf("%d",&m[i][j]);
+	   }
+      }
+      printf("\n\tmatrix is\n");
+      for(i=0;i<r;i++)
+	{
+	  for(j=0;j<c;j++)
+	     {
+		printf("\t%d",m[i][j]);
+	      }
+	      printf("\n");
+	  }
+	  getch();
+}

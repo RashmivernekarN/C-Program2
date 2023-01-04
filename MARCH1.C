@@ -1,0 +1,15 @@
+//program to find sum of two numbers
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+  int a,b,sum;
+  clrscr();
+  printf("\n\tenter two integers");
+  scanf("%d%d",&a,&b);
+  sum=a+b;
+  printf("\n\ta=%d\n\tb=%d\n\tsum=%d",a,b,sum);
+  getch();
+}

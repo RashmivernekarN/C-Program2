@@ -1,0 +1,24 @@
+
+//program to illustrate manipulators
+
+#include<iostream.h>
+#include<conio.h>
+#include<iomanip.h>
+
+void main()
+{
+   clrscr();
+   cout<<"\n\t"<<setw(6)<<1234<<endl;
+   cout<<"\n\t"<<setw(15)<<" oop with c++"<<endl;
+   cout<<"\n\t"<<setw(10)<<setprecision(3)<<1234.4561<<endl;
+    cout<<"\n\t"<<setfill('*')<<endl;
+   cout<<"\n\t"<<setw(6)<<1234<<endl;
+   cout<<"\n\t"<<setfill('#')<<endl;
+   cout<<"\n\t"<<setw(15)<<" oop with c++"<<endl;
+    cout<<"\n\t"<<setfill('0')<<endl;
+   cout<<"\n\t"<<setw(10)<<setprecision(3)<<1234.4569<<endl;
+   getch();
+}
+
+
+

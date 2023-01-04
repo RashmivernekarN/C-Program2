@@ -1,0 +1,44 @@
+//program to calculate sum of two matrices
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int m[5][5],n[5][5],s[5][5],i,j,r,c;
+clrscr();
+printf("\n enter order of the matrix\n");
+scanf("%d%d",&r,&c);
+
+if(r==c)
+ {
+   printf("Enter elements of the first matrix\n");
+   for
+   (i=0;i<r;i++)
+     {
+      for(j=0;j<c;j++)
+       {
+	scanf("%d",&m[i][j]);
+       }
+     }
+
+   printf("Enter elements of second matrix\n");
+   for(i=0;i<r;i++)
+     {
+       for(j=0;j<c;j++)
+       {
+	scanf("%d",&n[i][j]);
+       }
+     }
+
+   printf("MATRIX A\n");
+    for(i=0;i<r;i++)
+     {
+       for(j=0;j<c;j++)
+	{
+	  printf("\t%d",m[i][j]);
+	}
+	printf("\n\n");
+
+    }
+}}
