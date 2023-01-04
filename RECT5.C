@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+#include<conio.h>
+
+void even(int );
+int i,sum=0;
+
+void main()
+{
+   int x;
+   clrscr();
+   printf("\n\tenter final value");
+   scanf("%d",&x);
+   even(x);
+   getch();
+}
+void even(int n)
+{
+  printf("\neven numbers up to n are\n\t");
+  for(i=2;i<n;i=i+2)
+  {
+      printf("%d\n\t",i);
+      sum=sum+i;
+   }
+   printf("\n\tsum=%d",sum);
+}

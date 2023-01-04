@@ -1,0 +1,14 @@
+//program to illustrate referance variable
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+    int sum;
+    clrscr();
+    sum=10;
+    int &total=sum;//reference variable declaration and initialisation
+    cout<<"\n\tsum="<<sum;
+    cout<<"\n\ttotal="<<total;
+    getch();
+}

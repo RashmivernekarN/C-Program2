@@ -1,0 +1,21 @@
+//area of rectangle using function
+
+#include<stdio.h>
+#include<conio.h>
+float rect(float  ,float );
+float area,l,b;
+
+void main()
+{
+clrscr();
+   printf("\n\t enter length and breadth of rectangle");
+   scanf("%f%f",&l,&b);
+  printf("\n\tlen=%f\n\tbr=%f\n\tarea=%f",l,b,rect(l,b));
+  getch();
+}
+float rect(float l,float b)
+{
+
+   area=l*b;
+   return(area);
+}
