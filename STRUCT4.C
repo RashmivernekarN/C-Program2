@@ -1,0 +1,37 @@
+//program to illustrate structure
+#include<stdio.h>
+#include<conio.h>
+struct emp
+ {
+    int emp_no;
+    int salary;
+    char name[20];
+    char desig[20];
+  };
+  void main()
+  {
+      struct emp e1[3];
+      int i;
+      clrscr();
+      for(i=0;i<3;i++)
+       {
+      printf("\n\tenter Employee No");
+      scanf("%d",&e1[i].emp_no);
+      printf("\n\tenter Employee name");
+      scanf("%s",e1[i].name);
+      printf("\n\tenter Employee Desig");
+      scanf("%s",&e1[i].desig);
+      printf("\n\tenter Salary");
+      scanf("%d",&e1[i].salary);
+       }
+      for(i=0;i<3;i++)
+       {
+	printf("\t\n Emp NO=%d\n\t Emp NAME=%s \n\t Desig=%s\n\t Salary=%d\n",e1[i].emp_no,e1[i].name,e1[i].desig,e1[i].salary);
+       }
+      getch();
+
+       }
+
+
+
+

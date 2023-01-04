@@ -1,0 +1,28 @@
+//program to find sum of even numbers using function
+
+#include<stdio.h>
+#include<conio.h>
+
+int i,n,sum=0;
+void addition();
+void main()
+{
+  clrscr();
+  addition();
+  getch();
+}
+
+void addition()
+ {
+   printf("Enter any even number to find the sum of natural numbers upto it\n");
+   scanf("%d",&n);
+   i=0;
+ while(i<=n)
+   {
+   printf("\n%d",i);
+    i=i+2;
+    sum=sum+i;
+    }
+   printf("\nSum of even numbers = %d",sum);
+
+ }

@@ -1,0 +1,43 @@
+//program to illustrate structure
+#include<stdio.h>
+#include<conio.h>
+struct emp
+  {
+    int empno;
+    int basic,hra,da,gross,pf,netsal;
+    char name[20];
+  };
+  void main()
+  {
+      struct emp e1[10];
+      int i,n;
+      clrscr();
+      printf("\n How many employees?");
+      scanf("%d",&n);
+      for(i=0;i<n;i++)
+       {
+      printf("\n\t enter emp no");
+      scanf("%d",&e1[i].empno);
+      printf("\n\t enter emp name");
+      scanf("%s",e1[i].name);
+      printf("\n\t enter basic sal");
+      scanf("%d",&e1[i].basic);
+      printf("\n\t enter hra");
+      scanf("%d",&e1[i].hra);
+      printf("\n\t enter da");
+      scanf("%d",&e1[i].da);
+      printf("\n\t enter pf");
+      scanf("%d",&e1[i].pf);
+
+      e1[i].gross=e1[i].basic+e1[i].hra+e1[i].da;
+      e1[i].netsal=e1[i].gross-e1[i].pf;
+      }
+      for(i=0;i<n;i++)
+       {
+	printf("\n\t\n EmpNO=%d\t NAME=%s \t Basic=%d \t HRA=%d  \t DA=%d \t Gross=%d \t PF=%d \t Netsal=%d",e1[i].empno,e1[i].name,e1[i].basic,e1[i].hra,e1[i].da,e1[i].gross,e1[i].pf,e1[i].netsal);       }
+      getch();
+       }
+
+
+
+

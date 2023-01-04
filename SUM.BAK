@@ -1,0 +1,15 @@
+//program to find SUM OF 2 NUMBERS
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+   int a,b,sum;
+   clrscr();
+   cout<<"\n\tenter 2 integers";
+   cin>>a>>b;
+   sum=a+b;
+   cout<<"\n\ta="<<a;
+   cout<<"\n\tb="<<b<<"\n\tsum="<<sum;
+   getch();
+}

@@ -1,0 +1,28 @@
+//illustrate class
+#include<iostream.h>
+#include<conio.h>
+
+class student
+{
+   private:int roll_no
+	   char name[20];
+   public:void getdata()
+	   {
+	      cout<<"\nenter roll number and name";
+	      cin>>roll_no>>name;
+	    }
+	    void putdata();
+};
+void student::putdata()
+{
+   cout<<"\n\troll_no="<<roll_no;
+   cout<<"\n\tname="<<name;
+}
+void main()
+{
+   student s1;
+   clrscr();
+   s1.getdata();
+   s1.putdata();
+   getch();
+}

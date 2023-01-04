@@ -1,0 +1,15 @@
+//program to find length of a give string(illustrate strlen() function)
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+void main()
+{
+  char s1[20];
+  clrscr();
+  printf("\nenter any string");
+  scanf("%s",s1);
+     printf("\n\tLENGTH OF GIVEN STRING %s IS=%d",s1,strlen(s1));
+    getch();
+}

@@ -1,0 +1,17 @@
+//program to display STUDENT INFORMATION
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   clrscr();
+   printf("\n\t*****STUDENT INFORMATION******\n");
+   printf("\t---------------------\n");
+      printf("\tROLL NO:101\n");
+   printf("\tNAME:AJAY\n");
+   printf("\tDOA:12/AUG/2018\n");
+   printf("\tFEES:4000\n");
+   printf("\t------------------------\n");
+   getch();
+}

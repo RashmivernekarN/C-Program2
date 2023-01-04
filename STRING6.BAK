@@ -1,0 +1,15 @@
+// PROGRAM to illustrate strncpy() function
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+  char s1[20],s2[20];
+  clrscr();
+  printf("\nenter 2 strings");
+  scanf("%s%s",s1,s2);
+  strncpy(s1,s2,3);
+     printf("\n\tCOPIED STRING IS=%s",s1);
+    getch();
+}
