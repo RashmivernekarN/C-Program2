@@ -1,0 +1,22 @@
+/*program to illustrate user defined fuction
+(FUNCTION WITH RETURN VALUE WITHOUT ARGUMENT)*/
+
+#include<stdio.h>
+#include<conio.h>
+int a,b,sum;//global variable declaration
+int addition();//function declaration
+
+void main()
+{
+  clrscr();
+  sum=addition();//calling function
+  printf("\n\tsum=%d",sum);
+  getch();
+}
+int addition()//function definition
+{
+   printf("\n\tenter 2 numbers");
+   scanf("%d%d",&a,&b);
+   sum=a+b;
+   return(sum);
+}

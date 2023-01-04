@@ -1,0 +1,22 @@
+//program to illustrate user defined functions
+
+#include<stdio.h>
+#include<conio.h>
+int addition(int x,int y);
+int a,b,s;
+
+void main()
+{
+   clrscr();
+  printf("\nenter values for a and b");
+  scanf("%d%d",&a,&b);
+   printf("\n\tSUM=%d",addition(a,b));//actual parameters
+   getch();
+}
+int addition(int x,int y)//formal parameters
+{
+  s=x+y;
+  return(s);
+}
+
+
