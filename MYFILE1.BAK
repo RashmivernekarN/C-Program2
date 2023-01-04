@@ -1,0 +1,11 @@
+//to display a line of text
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   clrscr();
+   printf("\n\tWELCOME TO C PROGRAMMING");
+   printf("\n\tNAME:KEONICS\n\tADDRESS:IT PARK\n\t\tHUBLI");
+   getch();
+}

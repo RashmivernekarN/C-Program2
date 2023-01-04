@@ -1,0 +1,23 @@
+//illustrate nested if..else...
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+  {
+     int user,psw;
+     clrscr();
+     cout<<"\n\tenter user";
+     cin>>user;
+     cout<<"\n\tenter password";
+     cin>>psw;
+     if(user==123)
+	if(psw==321)
+	    cout<<"\n\tLOGIN SUCCESSFUL";
+	 else
+	     cout<<"\n\tINVALID PASSWORD";
+       else
+	  cout<<"\n\tINVALID USER";
+     getch();
+}
+
+

@@ -1,0 +1,24 @@
+//program to illustrate nested if
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int num;
+   clrscr();
+   printf("\nenter any number");
+   scanf("%d",&num);
+   if(num%3==0)
+   {
+       if(num%7==0)
+       {
+	  printf("%d is divisable by both 3 and 7",num);
+	}
+
+    }
+
+    getch();
+}
+
+
+
+

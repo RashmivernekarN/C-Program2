@@ -1,0 +1,33 @@
+//illstation of nesting of member function(to find largest of 2 numbers)
+
+#include<iostream.h>
+#include<conio.h>
+
+class large
+{
+   private:int m;
+	   int n;
+   public:void getdata(int x,int y)
+	  {
+	      m=x;
+	      n=y;
+	  }
+	  int big();
+	  void display();
+};
+int large::big()
+{
+   return(m>n?m:n);
+}
+void large::display()
+{
+   cout<<"\n\tm="<<m<<"\n\tn="<<n<<"\n\tbig="<<big();
+}
+void main()
+{
+   large k;
+   clrscr();
+   k.getdata();
+   k.display();
+   getch();
+}

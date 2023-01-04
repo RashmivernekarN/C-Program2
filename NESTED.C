@@ -1,0 +1,30 @@
+//program to illustrate nested if else
+//to check person authentication with username and password
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   int user,psw;
+   clrscr();
+   printf("\n\tenter user ");
+   scanf("%d",&user);
+   printf("\n\tenter password");
+   scanf("%d",&psw);
+   if(user==123)
+   {
+     if(psw==321)
+     {
+       printf("\n\tlogin successfull");
+       }
+       else
+       {
+	  printf("\n\tinvalid password");
+	}
+     }
+     else
+     {
+	printf("\n\tinvalid user");
+     }
+    getch();
+}
